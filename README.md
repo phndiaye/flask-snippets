@@ -54,4 +54,5 @@ def route_name():
 I am aware that i probably forgot lot of snippets.So please, help me add more :) 
 
 Email: me@iamphinson.com
+
 Twitter: @phndiaye
