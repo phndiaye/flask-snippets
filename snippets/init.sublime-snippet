@@ -1,0 +1,14 @@
+<snippet>
+    <content>
+<![CDATA[
+"""Initialize the Flask Object."""
+
+from flask import Flask
+
+app = Flask(__name__)
+]]>
+    </content>
+    <tabTrigger>init</tabTrigger>
+    <scope> source.python </scope>
+    <description> Flask Snippets </description>
+</snippet>

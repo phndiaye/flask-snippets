@@ -1,0 +1,18 @@
+<snippet>
+	<content>
+<![CDATA[
+"""
+    [app name]
+    --------------------------------------
+
+    [app desc]
+
+    :copyright: (c) [app creation date] by [creator's name].
+    :license: [app licence]
+"""
+]]>
+    </content>
+	<tabTrigger>copyright</tabTrigger>
+	<scope> source.python </scope>
+	<description> Flask Snippets </description>
+</snippet>

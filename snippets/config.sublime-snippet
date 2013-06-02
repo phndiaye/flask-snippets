@@ -1,0 +1,23 @@
+<snippet>
+    <content>
+<![CDATA[
+
+class Config(object):
+    DEBUG = False
+    CSRF_ENABLED = True
+
+
+class ProductionConfig(Config):
+    SECRET_KEY = 'kanyewestisprobablyfromgodsfamily'
+
+
+class DevelopmentConfig(Config):
+    DEBUG = True
+    SECRET_KEY = 'iamnotreallysafe'
+    SQLALCHEMY_DATABASE_URI = 'mysql://user:password@development_server/database_name'
+]]>
+    </content>
+    <tabTrigger>config</tabTrigger>
+    <scope> source.python </scope>
+    <description> Flask Snippets </description>
+</snippet>

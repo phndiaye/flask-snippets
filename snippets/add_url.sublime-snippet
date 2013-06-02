@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+app.add_url_rule('/', 'route_name', views.route_name)
+]]>
+    </content>
+    <tabTrigger>route</tabTrigger>
+    <scope> source.python </scope>
+    <description> Flask "In Separate File" route </description>
+</snippet>
