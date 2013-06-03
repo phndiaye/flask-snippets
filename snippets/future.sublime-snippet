@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+from __future__ import absolute_import, print_function, unicode_laterals
+]]>
+    </content>
+    <tabTrigger>future</tabTrigger>
+    <scope> source.python </scope>
+    <description> Flask "In Separate File" route </description>
+</snippet>

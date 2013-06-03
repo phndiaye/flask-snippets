@@ -46,7 +46,9 @@ app = Flask(__name__)</pre></td></tr>
 def route_name():
     pass</pre></td></tr>	
 
-    	<tr><th>route</th><td><pre>app.add_url_rule('/', 'route_name', views.route_name)</pre></td></tr>	
+    <tr><th>route</th><td><pre>app.add_url_rule('/', 'route_name', views.route_name)</pre></td></tr>	
+    <tr><th>__future__ imports </th><td><pre>from __future__ import absolute_import, print_function, unicode_laterals</pre></td></tr>
+
 	
 </table>
 
